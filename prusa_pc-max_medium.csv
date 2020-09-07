@@ -1,0 +1,136 @@
+Printer,,Prusa i3 MK3S,
+Bed,,Smooth,
+Material,,Polymaker PC-Max,
+Contact Area Size,,Medium,
+Simplify3D Version,,4.1.2,
+Speeds,Default Printing Speed,40.0,mm/s
+Speeds,Outline Underspeed,65,%
+Speeds,Solid Infill Underspeed,65,%
+Speeds,Support Structure Underspeed,80,%
+Speeds,X/Y Axis Movement Speed,180.0,mm/s
+Speeds,Z Axis Movement Speed,12.0,mm/s
+Speeds,Adjust printing speed for layers below,1,boolean
+Speeds,Adjust printing speed for layers below,15.0,sec
+Speeds,Allow speed reductions down to,35,%
+Temperature,Primary Extruder Temperature,260,C
+Temperature,Primary Extruder Wait Stabilize,1,boolean
+Temperature,Heated Bed Temperature,100,C
+Temperature,Heated Bed Wait Stabilize,0,boolean
+Infill,Infill Extruder,Primary Extruder,
+Infill,Internal Fill Pattern,Rectilinear,
+Infill,External Fill Pattern,Rectilinear,
+Infill,Interior Fill Percentage,75,%
+Infill,Outline Overlap,25,%
+Infill,Infill Extrusion Width,100,%
+Infill,Minimum Infill Length,1.00,mm
+Infill,Combine Infill Every,1,layers
+Infill,Include solid diaphragm every,0,boolean
+Infill,Include solid diaphragm every,,layers
+Infill,Internal Infill Angle Offsets,"(45,-45)",degrees
+Infill,External Infill Angle Offsets,"(45,-45)",degrees
+Support,Generate Support Material,1,boolean
+Support,Support Extruder,Primary Extruder,
+Support,Support Infill Percentage,25,%
+Support,Extra Inflation Distance,1.00,mm
+Support,Support Base Layers,1,
+Support,Combine Support Every,1,layers
+Support,Dense Support Extruder,Primary Extruder,
+Support,Dense Support Layers,0,
+Support,Dense Infill Percentage,70,%
+Support,Support Type,Normal,
+Support,Support Pillar Resolution ,4.00,mm
+Support,Max Overhang Angle,45,degrees
+Support,Horizontal Offset From Part ,0.30,mm
+Support,Upper Vertical Separation Layers,1,
+Support,Lower Vertical Separation Layers,1,
+Support,Support Infill Angles,0,degrees
+Layer,Primary Extruder,Primary Extruder,
+Layer,Primary Layer Height,0.2000,
+Layer,Top Solid Layers,3,
+Layer,Bottom Solid Layers,3,
+Layer,Outline/Perimeter Shells,3,
+Layer,Outline Direction,Inside-Out,
+Layer,Print islands sequentially without optimization,0,boolean
+Layer,Single outline corkscrew printing mode(vase mode),0,boolean
+Layer,First Layer Height,75,%
+Layer,First Layer Width,100,%
+Layer,First Layer Speed,50,%
+Layer,Use random start points for all perimeters,0,boolean
+Layer,Optimize start points for fastest printing speed,0,boolean
+Layer,Choose start point closest to specific location,1,boolean
+Layer,Choose start point closest to specific location,"(X:0.0,Y:300.0)",mm
+Additions,Use Skirt/Brim,1,boolean
+Additions,Skirt Extruder,Primary Extruder,
+Additions,Skirt Layers,1,
+Additions,Skirt Offset from Part,2.00,mm
+Additions,Skirt Outlines,3,
+Additions,Use Raft,1,boolean
+Additions,Raft Extruder,Primary Extruder,
+Additions,Raft Top Layers,1,
+Additions,Raft Base Layers,1,
+Additions,Raft Offset from Part,5.00,mm
+Additions,Separation Distance,0.30,mm
+Additions,Raft Top Infill,100,%
+Additions,Above Raft Speed,30,%
+Additions,Use Prime Pillar,0,boolean
+Additions,Prime Pillar Extruder,,
+Additions,Pillar Width,,mm
+Additions,Pillar Location,,
+Additions,Speed Multiplier,,%
+Additions,Use Ooze Shield,0,boolean
+Additions,Ooze Shield Extruder,,
+Additions,Offset from Part,,mm
+Additions,Ooze Shield Outlines,,
+Additions,Sidewall Shape,,
+Additions,Sidewall Angle Change,,degrees
+Additions,Speed Multiplier,,%
+Extruder,Extruder Toolhead Index,Tool 0,
+Extruder,Nozzle Diameter ,0.40,mm
+Extruder,Extrusion Multiplier,0.95,
+Extruder,Extrusion Width,Auto,
+Extruder,Extrusion Width,,mm
+Extruder,Retraction,1,boolean
+Extruder,Retraction Distance ,0.80,mm
+Extruder,Extra Restart Distance,0.00,mm
+Extruder,Retraction Vertical Lift,0.40,mm
+Extruder,Retraction Speed,40.0,mm/s
+Extruder,Coast at End,0,boolean
+Extruder,Coasting Distance,,mm
+Extruder,Wipe Nozzle,1,boolean
+Extruder,Wipe Distance,2.00,mm
+Other,Unsupported area threshold,50.0,sq mm
+Other,Extra inflation distance,1.00,mm
+Other,Bridging extrusion multiplier,95,%
+Other,Bridging speed multiplier,90,%
+Other,Use fixed bridging infill angle,0,boolean
+Other,Use fixed bridging infill angle,0,degrees
+Other,Apply bridging settings to perimeters,0,boolean
+Other,Horizontal size compensation,0,mm
+Other,Filament Toolhead Index,Tool 0,
+Other,Filament diameter,1.7500,mm
+Other,Filament price,68.00,price/kg
+Other,Filament density,1.08,grams/cm^3
+Other,Tool change retraction distance,12.00,mm
+Other,Tool change extra restart distance,-0.50,mm
+Other,Tool change retraction speed,10.0,mm/s
+Advanced,Start printing at height,0,boolean
+Advanced,Start printing at height,,mm
+Advanced,Stop printing at height,0,boolean
+Advanced,Stop printing at height,,mm
+Advanced,External Thin Wall Type,Perimeters Only,
+Advanced,Internal Thin Wall Type,Allow single extrusion fill,
+Advanced,Allowed perimeter overlap,20,%
+Advanced,Minimum Extrusion Length,1.00,mm
+Advanced,Minimum Printing Width,50,%
+Advanced,Maximum Printing Width,200,%
+Advanced,Endpoint Extension Distance,0.20,mm
+Advanced,Only retract when crossing open spaces,0,boolean
+Advanced,Force retraction between layers,1,boolean
+Advanced,Minimum travel for retraction,1,boolean
+Advanced,Minimum travel for retraction,2.00,mm
+Advanced,Perform retraction during wipe movement ,1,boolean
+Advanced,Only wipe extruder for outer-most perimeters,1,boolean
+Advanced,Avoid crossing outline for travel movements,1,boolean
+Advanced,Maximum allowed detour factor,3.0,
+Advanced,Non-manifold segments,Heal,
+Advanced,Merge all outlines into a single solid model,0,boolean
