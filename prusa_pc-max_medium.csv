@@ -15,7 +15,7 @@ Speeds,Allow speed reductions down to,35,%
 Temperature,Primary Extruder Temperature,260,C
 Temperature,Primary Extruder Wait Stabilize,1,boolean
 Temperature,Heated Bed Temperature,100,C
-Temperature,Heated Bed Wait Stabilize,0,boolean
+Temperature,Heated Bed Wait Stabilize,1,boolean
 Infill,Infill Extruder,Primary Extruder,
 Infill,Internal Fill Pattern,Rectilinear,
 Infill,External Fill Pattern,Rectilinear,
